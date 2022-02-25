@@ -1,0 +1,5 @@
+{:paths   ["src/clj" "classes" "resources"]
+ :deps    {org.clojure/clojure {:mvn/version "1.10.3"}}
+ :aliases {:dev  {:extra-paths ["env/dev/clj" "env/dev/resources"]}
+           :test {:extra-paths ["env/test/clj" "env/test/resources" "test/clj"]}
+           :prod {:extra-paths ["env/prod/clj" "env/prod/resources"]}}}
